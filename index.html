@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>davydwrites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-text">davydwrites</span>
+      <div class="typing-indicator" aria-hidden="true">
+        <span class="typing-dot"></span>
+        <span class="typing-dot"></span>
+        <span class="typing-dot"></span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Journal</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger-btn" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="nav-mobile-menu" id="mobile-menu">
+    <a href="index.html">Journal</a>
+    <a href="about.html">About</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-typing-row">
+        <div class="typing-indicator" aria-hidden="true">
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+        </div>
+        <span class="hero-typing-label">writing</span>
+      </div>
+      <div class="hero-title">
+        <span id="typewriter-target" data-text="davydwrites"></span>
+      </div>
+      <p class="hero-tagline">Film criticism. Screenplay analysis. Sharp opinions on what ends up on screen.</p>
+
+      <div class="currently reveal">
+        <div class="currently-label">Currently</div>
+        <div class="currently-items">
+          <div class="currently-item"><strong>Watching</strong> - <em>Project Hail Mary</em> (2026)</div>
+          <div class="currently-item"><strong>Reading</strong> - Adaptation by Charlie Kaufman (screenplay)</div>
+          <div class="currently-item"><strong>Working on</strong> - A short film script</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-break reveal reveal-d1">· · ·</div>
+
+    <section class="journal-section">
+      <div class="journal-label reveal reveal-d2">Journal</div>
+      <ul class="journal-list">
+
+        <li>
+          <a href="posts/post1.html" class="journal-entry reveal reveal-d1">
+            <span class="entry-number">01</span>
+            <div class="entry-content">
+              <span class="entry-title"><em>Project Hail Mary</em> is the film we needed - and twenty minutes too long</span>
+              <span class="entry-date">24 Mar 2026</span>
+              <span class="entry-excerpt">A schoolteacher and a rock save two planets. That sentence should not make you cry. The film will make you cry.</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="posts/post2.html" class="journal-entry reveal reveal-d2">
+            <span class="entry-number">02</span>
+            <div class="entry-content">
+              <span class="entry-title"><em>Peaky Blinders: The Immortal Man</em> - a beautiful, frustrating goodbye</span>
+              <span class="entry-date">22 Mar 2026</span>
+              <span class="entry-excerpt">Murphy is extraordinary. The Shelby saga ends not with a bang, but with a father asking his son to let him go.</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="posts/post3.html" class="journal-entry reveal reveal-d3">
+            <span class="entry-number">03</span>
+            <div class="entry-content">
+              <span class="entry-title"><em>The Bride!</em> has a hundred ideas and finishes none of them</span>
+              <span class="entry-date">20 Mar 2026</span>
+              <span class="entry-excerpt">Ambition without discipline is just noise. Gyllenhaal can direct - <em>The Lost Daughter</em> proved that. But here she mistakes volume for voice.</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="posts/post4.html" class="journal-entry reveal reveal-d4">
+            <span class="entry-number">04</span>
+            <div class="entry-content">
+              <span class="entry-title">Adaptation is a knife fight - and most writers lose</span>
+              <span class="entry-date">18 Mar 2026</span>
+              <span class="entry-excerpt">What interests me is not whether the film is faithful to the book. What interests me is whether the writer found the knife.</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="posts/post5.html" class="journal-entry reveal reveal-d5">
+            <span class="entry-number">05</span>
+            <div class="entry-content">
+              <span class="entry-title">Who writes dialogue like this anymore?</span>
+              <span class="entry-date">16 Mar 2026</span>
+              <span class="entry-excerpt">Screenwriting is the most invisible art. Nobody leaves a cinema saying the dialogue was well-structured.</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="posts/post6.html" class="journal-entry reveal reveal-d6">
+            <span class="entry-number">06</span>
+            <div class="entry-content">
+              <span class="entry-title">Why I started writing about film (and why I will not stop)</span>
+              <span class="entry-date">14 Mar 2026</span>
+              <span class="entry-excerpt">Cinema found me later. It stuck because film does something writing alone cannot: it makes time visible.</span>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="section-break">· · ·</div>
+    <p class="footer-copy">&copy; 2026 Davyd Zakharniev</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
